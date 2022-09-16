@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+h1 {
+    color: lime;
+    font-size: 34 px;
+    line-height: 48px;
+    margin: 0;
+}
+h2 {
+    margin: 0;
+    font-size: 34px;
+    line-height: 48px;
+    font-weight: 400;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid red;
+    background-color: red;
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 24px;
+    border-radius: 30px;
+    transition: all 200ms ease;
+    box-shadow: rgb(37 38 89 / 8%) 0px 8px 8px 0;
+    cursor: pointer;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 200ms ease-in-out;
+    max-width: 400px;
+    margin: 0 auto;
+}
+p {
+    font-size: 18px;
+    opacity: 0.7;
+    font-family: monospace
+}
